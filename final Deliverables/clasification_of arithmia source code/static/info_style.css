@@ -1,0 +1,124 @@
+body
+{
+	background-color: lightblue;
+	margin:0;
+}
+.header
+{
+	height:55px;
+	width:100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color:black;
+	position: fixed;
+}
+.header ul
+{
+	float:right;
+	margin-top:17px;
+	
+}
+.header ul li 
+{
+	display:inline;
+	margin-right:20px;
+}
+.header ul li a
+{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	padding: 14px 16px;
+}
+
+.header ul li a:hover {
+  background-color: #333;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+section{
+	width:100%;
+	height:100vh;
+	display: flex;
+}	
+
+.sec1{
+	background-image:url(info/3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.sec7{
+	background-image:url(info/5.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.sec2{
+	background-image:url(info/1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.sec3{
+	background-image:url(info/2.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.sec4{
+	background-image:url(info/4.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.sec5{
+	background-image:url(info/6.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.sec6{
+	background-image:url(info/7.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.content{
+	color:white;
+	text-align:justify;
+	font-size:23px;
+	background-color:black;
+	opacity: 0.8;
+	padding: 1rem 5rem;
+	color: white;
+	align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+/*      
+ECG
+Left Bundle Branch Block
+Normal
+Premature Atrial Contraction
+Premature Ventricular Contractions
+Right Bundle Branch Block
+Ventricular Fibrillation
+*/
+
+
+
+
+

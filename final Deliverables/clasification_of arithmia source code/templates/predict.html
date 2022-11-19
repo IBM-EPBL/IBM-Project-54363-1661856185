@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/predict_style.css">
+</head>
+<body>
+<div img id="bg-image" ></div>
+
+<div id="header">
+<ul>
+    <li> <a href="/">Home</a></form></li>
+	<li> <a href="/info">Info</a></form></li>
+    <li> <a href="/predict">Predict</a></form></li>
+</ul>
+</div>
+<h1>try to success</h1>
+<div id="container">
+    <form action="/predict" , method="post" enctype="multipart/form-data">
+        <p><input type="file" id="file_upload" name="imagefile" onchange="loadFile(event)"></p>
+        <p><img src="{{path}}"id="output" width="200" /></p>
+        <input type="submit" class="predict_bt" value="Predict">
+    </form></div>
+    {% if predition %}
+        <center><p id="result"> The Result is :  <b>  {{predition}}</b> </p></center>
+    {% endif%}
+<script>
+        var loadFile = function(event) {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+    </script>
+</body>
+</html>
+
